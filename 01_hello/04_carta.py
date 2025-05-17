@@ -1,0 +1,16 @@
+#Fabian Vargas
+# 10-03-2025
+print("+--------------------------------------------------------------+")
+print("|                                                    10-03-2025|")
+print("|                                                 Fabian Vargas|")
+print("| Hola yo del futuro                                           |")
+print("| Me encuentro bien aprendiendo cosas nuevas todos los dias    |")
+print("| Y emocionado x lo que pueda venir mas adelante, espero q no  |")
+print("| Cambie eso en el futuro y haya logrado lo q me propuse este  |")
+print("| Año, espero q me vaya bien y pueda leer esto sabiendo        |")
+print("| Que lo cumpli.                                               |")
+print("|                                                              |")
+print("|                                                              |")
+print("|                                                 Atte: Yo     |")
+print("|                                                              |")
+print("+--------------------------------------------------------------+")

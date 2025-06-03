@@ -28,3 +28,10 @@ class Usuario:
         else:
             print(f"No existe la tarjeta con índice {indice_tarjeta}")
         return self
+    def mostrar_saldo_usuario(self):
+        """Muestra el saldo total de todas las tarjetas del  usuario"""
+        total_saldo = sum(tarjeta.saldo_pagar for tarjeta in self.tarjetas)
+        print(f"Saldo total de las tarjetas del usuario {self.nombre}:")
+        for i, tarjeta in enumerate(self.tarjetas,1):
+            print(f"Tarjeta {i}: Saldo a pagar: ${tarjeta.saldo_pagar:,}")
+            return self

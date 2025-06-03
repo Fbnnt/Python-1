@@ -19,20 +19,23 @@ class libro:
         self.copias_disponibles = self.copias_disponibles+nuevas_copias
     
     def esta__disponible(self):
-        self.copias_disponibles == 0
+        self.copias_disponibles = 0
 
     def agotado(self):
         self.copias_disponibles == 0
         print(self.titulo, "está agotado")
-    def prestar (self, copias=1)
+    def prestar (self, copias=1):
         if self.copias_disponibles >= copias:
             self.copias_disponibles -= copias
             print(f"Has prestado {copias} copias(s) de '{self.titulo}'.")
+        else:
+            print(f"No hay suficientes copias disponibles '{self.titulo}'.")
 
 mi_libro = libro("El Principito", "Antoine de Saint-Exupéry", 96, "ficción", 10)
-mi_libro.atributos()
-mi_libro.agotado()
-print("¿Está disponible?", mi_libro.esta_disponibles())
+
+print("\n ====Prestar copias====")
+mi_libro.prestar(2)
+mi_libro()
 #¿Inizialisame la clase sin inizialisarla?
 #¿Para que sirve pass?
 #¿como entregarle los valores a una clase?
